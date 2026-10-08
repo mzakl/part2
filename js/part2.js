@@ -21,4 +21,9 @@ myMovie.Summary = 'World War II movie about the Normandy Landings';
 myMovie.rating = 4;
 myMovie.year = 1962;
 
+//console.log(myMovie);
+
+// Delete the Summary property from the myMovie object
+delete myMovie.Summary;
+
 console.log(myMovie);
