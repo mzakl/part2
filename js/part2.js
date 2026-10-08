@@ -15,4 +15,10 @@ const myMovie = {
 myMovie.rating = 5;
 myMovie.Summary = 'World War II movie about the Normandy Landings';
 
+//console.log(myMovie);
+
+// Change the value of object properties rating & year
+myMovie.rating = 4;
+myMovie.year = 1962;
+
 console.log(myMovie);
