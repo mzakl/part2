@@ -13,7 +13,7 @@ const myMovie = {
 
 // Add properties to the object
 myMovie.rating = 5;
-myMovie.Summary = 'World War II movie about the Normandy Landings';
+myMovie.summary = 'World War II movie about the Normandy Landings';
 
 //console.log(myMovie);
 
@@ -23,7 +23,7 @@ myMovie.year = 1962;
 
 //console.log(myMovie);
 
-// Delete the Summary property from the myMovie object
-delete myMovie.Summary;
+// Delete the summary property from the myMovie object
+delete myMovie.summary;
 
 console.log(myMovie);
